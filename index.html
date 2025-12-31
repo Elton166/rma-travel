@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RMA Travels and Tours - Cape Town Tours</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">RMA Travel & Tours</div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tours">Tours</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Explore Cape Town</h1>
+                <p>Unforgettable tours with expert local guides</p>
+                <a href="#tours" class="cta-button">View Tours</a>
+            </div>
+        </section>
+        <section class="info-bar">
+            <div class="container">
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <strong>Starting Point</strong>
+                        <p>Greenpoint, Cape Town</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📱</span>
+                    <div>
+                        <strong>Call Us</strong>
+                        <p>+27 64 936 9366</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">💬</span>
+                    <div>
+                        <strong>WhatsApp</strong>
+                        <p>+27 72 853 6023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="tours-section" id="tours">
+            <div class="container">
+                <h2 class="section-title">Our Popular Tours</h2>
+                <p class="section-subtitle">Discover the best of Cape Town with our curated experiences</p>
+                
+                <div class="tour-grid">
+                    <div class="tour-card featured" id="peninsula-card" onclick="openPeninsulaModal()">
+                        <div class="tour-image" style="background-image: url('Images/WhatsApp Image 2025-12-30 at 12.18.42_4f6898fc.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; background-color: #f0f0f0;">
+                        </div>
+                        <h3>Cape Town Peninsula Tour</h3>
+                        <p><strong>Full Day Experience</strong></p>
+                        <ul class="tour-highlights">
+                            <li>Chapman's Peak Drive</li>
+                            <li>Cape Point & Cape of Good Hope</li>
+                            <li>Boulders Beach Penguins</li>
+                            <li>Scenic coastal routes</li>
+                            <li>Lunch included</li>
+                        </ul>
+                        <p class="tour-duration">⏱️ 8-9 hours</p>
+                        <p style="text-align: center; color: #3498db; font-weight: bold; padding-bottom: 15px;">Click to view gallery →</p>
+                    </div>
+                    <div class="tour-card" id="tablemountain-card" onclick="openTableMountainModal()">
+                        <div class="tour-image" style="background-image: url('Images/Table mountain.jpg'); background-size: cover; background-position: center;">
+                        </div>
+                        <h3>Table Mountain Experience with City Tour</h3>
+                        <p><strong>Half Day Tour</strong></p>
+                        <ul class="tour-highlights">
+                            <li>Cable car to Table Mountain summit</li>
+                            <li>Panoramic city views</li>
+                            <li>City highlights tour included</li>
+                            <li>V&A Waterfront visit</li>
+                        </ul>
+                        <p class="tour-duration">⏱️ 4-5 hours</p>
+                        <p style="text-align: center; color: #3498db; font-weight: bold; padding-bottom: 15px;">Click to view gallery →</p>
+                    </div>
+                    <div class="tour-card" id="winelands-card" onclick="openWinelandsModal()">
+                        <div class="tour-image" style="background-image: url('Images/Wine.jpg'); background-size: cover; background-position: center;">
+                        </div>
+                        <h3>Winelands Tour</h3>
+                        <p><strong>Full Day Experience</strong></p>
+                        <ul class="tour-highlights">
+                            <li>Stellenbosch wine estates</li>
+                            <li>Franschhoek valley</li>
+                            <li>Paarl wine region</li>
+                            <li>Wine tastings included</li>
+                            <li>Scenic mountain views</li>
+                        </ul>
+                        <p class="tour-duration">⏱️ 7-8 hours</p>
+                        <p style="text-align: center; color: #3498db; font-weight: bold; padding-bottom: 15px;">Click to view gallery →</p>
+                    </div>
+                    <div class="tour-card" id="city-card" onclick="openCityModal()">
+                        <div class="tour-image" style="background-image: url('Images/Culture.jpg'); background-size: cover; background-position: center;">
+                        </div>
+                        <h3>City & Culture Tour</h3>
+                        <p>Explore Cape Town's rich history and vibrant culture</p>
+                        <p style="text-align: center; color: #3498db; font-weight: bold; padding-bottom: 15px;">Click to view gallery →</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="gallery-section" id="gallery">
+            <div class="container">
+                <h2 class="section-title">Gallery</h2>
+                <p class="section-subtitle">Moments from our amazing tours</p>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-12-30 at 12.18.42_4f6898fc.jpg" alt="Tour Photo 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-12-30 at 12.23.13_e1b1beb6.jpg" alt="Tour Photo 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-12-30 at 12.23.17_89370137.jpg" alt="Tour Photo 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Images/WhatsApp Image 2025-12-30 at 12.23.21_85cba011.jpg" alt="Tour Photo 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="reviews-section" id="reviews">
+            <div class="container">
+                <h2 class="section-title">Customer Reviews</h2>
+                <p class="section-subtitle">Share your experience with RMA Travel & Tours</p>
+                
+                <div class="review-form-container">
+                    <form class="review-form" id="reviewForm">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="tour">Tour Taken *</label>
+                            <select id="tour" name="tour" required>
+                                <option value="">Select a tour</option>
+                                <option value="peninsula">Cape Town Peninsula Tour</option>
+                                <option value="tablemountain">Table Mountain Experience</option>
+                                <option value="winelands">Winelands Tour</option>
+                                <option value="city">City & Culture Tour</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="rating">Rating *</label>
+                            <div class="star-rating">
+                                <input type="radio" id="star5" name="rating" value="5" required>
+                                <label for="star5">★</label>
+                                <input type="radio" id="star4" name="rating" value="4">
+                                <label for="star4">★</label>
+                                <input type="radio" id="star3" name="rating" value="3">
+                                <label for="star3">★</label>
+                                <input type="radio" id="star2" name="rating" value="2">
+                                <label for="star2">★</label>
+                                <input type="radio" id="star1" name="rating" value="1">
+                                <label for="star1">★</label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="review">Your Review *</label>
+                            <textarea id="review" name="review" rows="5" required placeholder="Tell us about your experience..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Submit Review</button>
+                    </form>
+                    
+                    <div class="review-success" id="reviewSuccess" style="display: none;">
+                        <h3>✓ Thank You!</h3>
+                        <p>Your review has been submitted successfully. We appreciate your feedback!</p>
+                    </div>
+                </div>
+                
+                <div class="reviews-display">
+                    <h3>Recent Reviews</h3>
+                    <div id="reviewsList" class="reviews-list">
+                        <!-- Sample reviews -->
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div>
+                                    <strong>Sarah Johnson</strong>
+                                    <div class="review-stars">★★★★★</div>
+                                </div>
+                                <span class="review-tour">Peninsula Tour</span>
+                            </div>
+                            <p class="review-text">Amazing experience! The Peninsula tour was breathtaking. Our guide was knowledgeable and friendly. Highly recommend!</p>
+                        </div>
+                        
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div>
+                                    <strong>Michael Chen</strong>
+                                    <div class="review-stars">★★★★★</div>
+                                </div>
+                                <span class="review-tour">Winelands Tour</span>
+                            </div>
+                            <p class="review-text">The Winelands tour exceeded all expectations. Beautiful scenery, excellent wines, and great company. Worth every penny!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <span class="contact-icon">📱</span>
+                        <h3>Call Us</h3>
+                        <a href="tel:+27649369366">+27 64 936 9366</a>
+                    </div>
+                    <div class="contact-card">
+                        <span class="contact-icon">💬</span>
+                        <h3>WhatsApp</h3>
+                        <a href="https://wa.me/27728536023">+27 72 853 6023</a>
+                    </div>
+                    <div class="contact-card">
+                        <span class="contact-icon">📍</span>
+                        <h3>Location</h3>
+                        <p>Greenpoint, Cape Town</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 RMA Travel & Tours. All rights reserved.</p>
+            </div>
+        </footer>
+        
+        <!-- Winelands Modal -->
+        <div id="winelandsModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeWinelandsModal()">&times;</span>
+                <h2>Winelands Tour Gallery</h2>
+                <div class="modal-gallery">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.30_58c94a2c.jpg" alt="Winelands 1">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.32_7c347492.jpg" alt="Winelands 2">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.33_592cfa03.jpg" alt="Winelands 3">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.34_41b72184.jpg" alt="Winelands 4">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.35_adfcab50.jpg" alt="Winelands 5">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.43_33c800d6.jpg" alt="Winelands 6">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.43_afe2ba5a.jpg" alt="Winelands 7">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.45_a86bb693.jpg" alt="Winelands 8">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.46_707ea8e1.jpg" alt="Winelands 9">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.47_a4a88975.jpg" alt="Winelands 10">
+                    <img src="Images/Winelands/WhatsApp Image 2025-12-30 at 12.37.49_716450bf.jpg" alt="Winelands 11">
+                </div>
+            </div>
+        </div>
+        
+        <!-- City Modal -->
+        <div id="cityModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeCityModal()">&times;</span>
+                <h2>City & Culture Tour Gallery</h2>
+                <div class="modal-gallery">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.24.53_2cd7440d.jpg" alt="City 1">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.24.58_14010f95.jpg" alt="City 2">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.25.03_d066d4a5.jpg" alt="City 3">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.25.22_1cc5765f.jpg" alt="City 4">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.25.52_ea43b427.jpg" alt="City 5">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.27.02_bd9ce80a.jpg" alt="City 6">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.27.21_1b9f05d8.jpg" alt="City 7">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.27.28_7c3a4ebd.jpg" alt="City 8">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.27.29_2782f085.jpg" alt="City 9">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.27.33_b96b5e30.jpg" alt="City 10">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.27.36_6c91e351.jpg" alt="City 11">
+                    <img src="Images/City/WhatsApp Image 2025-12-30 at 12.27.39_5d6a18fb.jpg" alt="City 12">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Table Mountain Modal -->
+        <div id="tableMountainModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeTableMountainModal()">&times;</span>
+                <h2>Table Mountain Experience Gallery</h2>
+                <div class="modal-gallery">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.25.34_88558c6b.jpg" alt="Table Mountain 1">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.25.35_50bb2a46.jpg" alt="Table Mountain 2">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.25.39_d57a3c08.jpg" alt="Table Mountain 3">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.25.40_f70c1715.jpg" alt="Table Mountain 4">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.25.41_50ec3321.jpg" alt="Table Mountain 5">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.25.43_f3b93c84.jpg" alt="Table Mountain 6">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.25.46_ec44de0a.jpg" alt="Table Mountain 7">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.25.47_97df2c11.jpg" alt="Table Mountain 8">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.30.33_154123fb.jpg" alt="Table Mountain 9">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.30.33_b206ee48.jpg" alt="Table Mountain 10">
+                    <img src="Images/Table mountain/WhatsApp Image 2025-12-30 at 12.30.33_cd641019.jpg" alt="Table Mountain 11">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Peninsula Modal -->
+        <div id="peninsulaModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closePeninsulaModal()">&times;</span>
+                <h2>Cape Town Peninsula Tour Gallery</h2>
+                <div class="modal-gallery">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.18_fb86de1b.jpg" alt="Peninsula 1">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.19_570e28d1.jpg" alt="Peninsula 2">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.22_961fd609.jpg" alt="Peninsula 3">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.23_9aebff6b.jpg" alt="Peninsula 4">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.24_8bc33dfa.jpg" alt="Peninsula 5">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.26_f7cab097.jpg" alt="Peninsula 6">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.28_3708ea0b.jpg" alt="Peninsula 7">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.31_9afe4fd9.jpg" alt="Peninsula 8">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.34_1b1be368.jpg" alt="Peninsula 9">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.37_e2f8d032.jpg" alt="Peninsula 10">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.40_f2c11276.jpg" alt="Peninsula 11">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.42_eb1d6b94.jpg" alt="Peninsula 12">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.43_928a060c.jpg" alt="Peninsula 13">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.50_40926181.jpg" alt="Peninsula 14">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.52_5eeeb47f.jpg" alt="Peninsula 15">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.54_6f581c4e.jpg" alt="Peninsula 16">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.23.57_9baeb18c.jpg" alt="Peninsula 17">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.24.01_987995b0.jpg" alt="Peninsula 18">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.24.07_cf233e43.jpg" alt="Peninsula 19">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.24.14_939994a2.jpg" alt="Peninsula 20">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.24.17_36227cb3.jpg" alt="Peninsula 21">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.24.18_0187ed16.jpg" alt="Peninsula 22">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.24.41_e3feedb8.jpg" alt="Peninsula 23">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.25.29_d48ed9cb.jpg" alt="Peninsula 24">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.25.31_3f88c33d.jpg" alt="Peninsula 25">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.25.54_072cc732.jpg" alt="Peninsula 26">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.26.50_b9548183.jpg" alt="Peninsula 27">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.27.14_f16e0c04.jpg" alt="Peninsula 28">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.27.26_b2c830c7.jpg" alt="Peninsula 29">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.27.28_964aa485.jpg" alt="Peninsula 30">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.30.32_15dd91d5.jpg" alt="Peninsula 31">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.30.32_ef2226ec.jpg" alt="Peninsula 32">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.30.35_8a66282c.jpg" alt="Peninsula 33">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.30.35_aae211de.jpg" alt="Peninsula 34">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.34.29_c34a1b04.jpg" alt="Peninsula 35">
+                    <img src="Images/Peninsula/WhatsApp Image 2025-12-30 at 12.34.30_ce860ce0.jpg" alt="Peninsula 36">
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            function openWinelandsModal() {
+                document.getElementById('winelandsModal').style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            }
+            
+            function closeWinelandsModal() {
+                document.getElementById('winelandsModal').style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+            
+            function openCityModal() {
+                document.getElementById('cityModal').style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            }
+            
+            function closeCityModal() {
+                document.getElementById('cityModal').style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+            
+            function openTableMountainModal() {
+                document.getElementById('tableMountainModal').style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            }
+            
+            function closeTableMountainModal() {
+                document.getElementById('tableMountainModal').style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+            
+            function openPeninsulaModal() {
+                document.getElementById('peninsulaModal').style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            }
+            
+            function closePeninsulaModal() {
+                document.getElementById('peninsulaModal').style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+            
+            // Close modal when clicking outside
+            window.onclick = function(event) {
+                const winelandsModal = document.getElementById('winelandsModal');
+                const cityModal = document.getElementById('cityModal');
+                const tableMountainModal = document.getElementById('tableMountainModal');
+                const peninsulaModal = document.getElementById('peninsulaModal');
+                if (event.target == winelandsModal) {
+                    closeWinelandsModal();
+                }
+                if (event.target == cityModal) {
+                    closeCityModal();
+                }
+                if (event.target == tableMountainModal) {
+                    closeTableMountainModal();
+                }
+                if (event.target == peninsulaModal) {
+                    closePeninsulaModal();
+                }
+            }
+            
+            // Review form handling
+            document.getElementById('reviewForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const formData = {
+                    name: document.getElementById('name').value,
+                    email: document.getElementById('email').value,
+                    tour: document.getElementById('tour').value,
+                    rating: document.querySelector('input[name="rating"]:checked').value,
+                    review: document.getElementById('review').value,
+                    date: new Date().toLocaleDateString()
+                };
+                
+                // Add review to display
+                addReviewToDisplay(formData);
+                
+                // Show success message
+                document.querySelector('.review-form-container form').style.display = 'none';
+                document.getElementById('reviewSuccess').style.display = 'block';
+                
+                // Reset form after 3 seconds
+                setTimeout(function() {
+                    document.getElementById('reviewForm').reset();
+                    document.querySelector('.review-form-container form').style.display = 'block';
+                    document.getElementById('reviewSuccess').style.display = 'none';
+                }, 3000);
+            });
+            
+            function addReviewToDisplay(data) {
+                const tourNames = {
+                    'peninsula': 'Peninsula Tour',
+                    'tablemountain': 'Table Mountain',
+                    'winelands': 'Winelands Tour',
+                    'city': 'City & Culture'
+                };
+                
+                const stars = '★'.repeat(data.rating) + '☆'.repeat(5 - data.rating);
+                
+                const reviewCard = document.createElement('div');
+                reviewCard.className = 'review-card';
+                reviewCard.innerHTML = `
+                    <div class="review-header">
+                        <div>
+                            <strong>${data.name}</strong>
+                            <div class="review-stars">${stars}</div>
+                        </div>
+                        <span class="review-tour">${tourNames[data.tour]}</span>
+                    </div>
+                    <p class="review-text">${data.review}</p>
+                `;
+                
+                const reviewsList = document.getElementById('reviewsList');
+                reviewsList.insertBefore(reviewCard, reviewsList.firstChild);
+            }
+        </script>
+    </body>
+</html>
